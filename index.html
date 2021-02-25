@@ -10,12 +10,51 @@
     />
 
     <link rel="stylesheet" href="css/icon-font.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./dist/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
   <body>
-    <header class="header">HEADER</header>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">MENU</label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="javascript:void(0);"
+              >About Natours</a
+            >
+          </li>
+
+          <li class="navigation__item">
+            <a class="navigation__link" href="javascript:void(0);"
+              >Your benefits</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="javascript:void(0);"
+              >Popular tours
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="javascript:void(0);">Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="javascript:void(0);">Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="logo-box">
+        <img src="./img/logo-white.png" alt="" class="logo" />
+      </div>
+    </header>
   </body>
 </html>
